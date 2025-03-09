@@ -1,0 +1,29 @@
+.header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.header__title {
+  font-size: 2rem;
+  color: #343a40;
+}
+
+.header__nav {
+  list-style: none;
+  padding: 0;
+}
+
+.header__nav-item {
+  display: inline;
+  margin: 0 15px;
+}
+
+.header__nav-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.header__nav-link:hover {
+  text-decoration: underline;
+}

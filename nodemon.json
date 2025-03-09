@@ -1,0 +1,9 @@
+{
+  "watch": [
+    "src/**/*.ts",
+    "views/**/*.ejs",
+    "scss/**/*.scss"
+  ],
+  "ext": "ts,ejs,scss",
+  "exec": "sass scss/:public/css/ --style compressed --update && ts-node src/app.ts"
+}
