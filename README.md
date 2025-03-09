@@ -1,6 +1,7 @@
-# My Node.js Application
+# The Ultimate MVC structure
 
-This is a Node.js application built using TypeScript, EJS for templating, and SCSS for styling. The application is structured to provide a clean separation of concerns, making it easy to maintain and extend.
+This structure I have been busy with for a couple of days and should allow you to quickly get up to speed in the development in MVC applications. 
+I myself have deployed this on a nodejs application inside of my cPanel which was a success.
 
 ## Features
 
@@ -13,7 +14,7 @@ This is a Node.js application built using TypeScript, EJS for templating, and SC
 ## Project Structure
 
 ```
-my-nodejs-app
+root
 ├── src
 │   ├── app.ts               # Entry point of the application
 │   ├── routes               # Contains route definitions
@@ -42,7 +43,7 @@ my-nodejs-app
 1. **Clone the repository:**
    ```
    git clone <repository-url>
-   cd my-nodejs-app
+   cd the-ultimate-nodejs-mvc
    ```
 
 2. **Install dependencies:**
@@ -52,7 +53,7 @@ my-nodejs-app
 
 3. **Run the application:**
    ```
-   npm run dev
+   Simply press f5 and deploy it on the local machine with debugger attached
    ```
 
 4. **Open your browser:**
